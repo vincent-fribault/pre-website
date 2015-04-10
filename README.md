@@ -25,8 +25,7 @@ Installation
 Executez le script suivant :
 
 ```sh
-curl --remote-name
-https://raw.githubusercontent.com/vincent-fribault/pre-website/master/mac
+curl --remote-name https://raw.githubusercontent.com/vincent-fribault/pre-website/master/mac
 less mac
 sh mac 2>&1 | tee ~/pre-website_debug.log
 ```
